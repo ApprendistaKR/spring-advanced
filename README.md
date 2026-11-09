@@ -50,14 +50,14 @@
   * `CommentServiceTest` 쿨래스에 있는
     `ServerException exception` 을 `InvalidRequestException`로 변경하여
   <br> MangerService 예외 처리 불일치를 해결
-  * `MangerServic` 클래스에 있는
+  * `MangarServic` 클래스에 있는
   saveManager 메서드에서 todo.getUser() == null를 추가
   <br> if (todo.getUser() == null || !ObjectUtils.nullSafeEquals(user.getId(), todo.getUser().getId())) 로 수정하여
   <br>Todo의 User가 null일 경우 예외처리가 발생하도록 변경 
 
 * **참고 자료 / 트러블 슈팅**
   * 관련 트러블 슈팅 기록:
-    [Velog 링크]()
+    [Velog 링크](https://velog.io/@luke1495/TIL)
   
 ---
 
