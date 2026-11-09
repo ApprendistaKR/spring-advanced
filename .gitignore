@@ -43,3 +43,6 @@ out/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Gradle Wrapper Properties 제외
+gradle/wrapper/gradle-wrapper.properties
